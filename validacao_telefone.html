@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="#">
+</head>
+<body>
+    <form>
+        <h1>Validação Telefone</h1> <br>
+        <input type="text" id="idNome" nome="nome" placeholder="Digite seu nome completo">
+         <br>
+         <br>
+        <input type="text" nome="telefone" id="idTelefone" placeholder="Digite seu telefone" onkeydown="ajustaTelefone(this)" onkeypress="ajustaTelefone(this)" onkeyup="ajustaTelefone(this)" maxlength="15" required>
+         <br>
+         <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button> 
+    </form>
+</body>
+<script src="validacao_telefone.js"></script>
+</html>
